@@ -12,6 +12,7 @@ var AppComponent = /** @class */ (function () {
     function AppComponent(_specialistService) {
         this._specialistService = _specialistService;
         this.EspecialistaSelect = [];
+        this.video = 'cQ-a18zEBmI';
         this.data = {
             name: "",
             day: "",

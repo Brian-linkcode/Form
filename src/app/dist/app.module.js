@@ -12,13 +12,15 @@ var core_1 = require("@angular/core");
 var forms_1 = require("@angular/forms");
 var app_component_1 = require("./app.component");
 var specialist_service_1 = require("./services/specialist.service");
+var domseguro_pipe_1 = require("./pipes/domseguro.pipe");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
             declarations: [
-                app_component_1.AppComponent
+                app_component_1.AppComponent,
+                domseguro_pipe_1.DomseguroPipe
             ],
             imports: [
                 platform_browser_1.BrowserModule,

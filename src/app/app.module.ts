@@ -5,10 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 
 import { SpecialistService } from './services/specialist.service';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
